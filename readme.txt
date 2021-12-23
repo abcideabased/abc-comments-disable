@@ -33,6 +33,11 @@ Upload the plugin to your blog and activate it.
 
 == Changelog ==
 
+= 1.0.1 =
+*Release Date - 23rd December, 2021*
+
+* Fix broken initialization of plugin
+
 = 1.0.0 =
 *Release Date - 23rd December, 2021*
 
