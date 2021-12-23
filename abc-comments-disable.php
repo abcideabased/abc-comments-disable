@@ -28,3 +28,19 @@ register_deactivation_hook( __FILE__, array( 'ABC-Comments-Disable', 'plugin_dea
 require_once( COMMENTS_DISABLE__PLUGIN_DIR . 'disable.php' );
 
 add_action( 'init', array( 'ABC-Comments-Disable', 'init' ) );
+
+
+
+/** Update check */
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/abcideabased/abc-comments-disable',
+	__FILE__,
+	'abc-comments-disable'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
+// Uses GitHub Releases
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
