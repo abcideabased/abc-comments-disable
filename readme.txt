@@ -30,3 +30,11 @@ Major features in include:
 Upload the plugin to your blog and activate it.
 
 1, 2, 3: You're done!
+
+== Changelog ==
+
+= 1.0.0 =
+*Release Date - 23rd December, 2021*
+
+* Initial functionality
+* Added plugin updates from GitHub

@@ -1,8 +1,0 @@
-=== ABC - Comments Disable ===
-
-== Archived Changelog Entries ==
-
-= 1.0.0 =
-*Release Date - 23rd December, 2021*
-
-* Initial functionality
